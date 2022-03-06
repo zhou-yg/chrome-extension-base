@@ -1,0 +1,16 @@
+{
+  "name": "inject-scripts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index-normal.js",
+  "scripts": {
+    "dev": "vite",
+    "build:watch": "vite build --mode=development",
+    "build": "vite build && mv dist/index.js ../inject-script.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^2.8.6"
+  }
+}
