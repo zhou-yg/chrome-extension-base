@@ -1,0 +1,16 @@
+html {
+  overflow: hidden;
+  height: 100vh;
+}
+#left, #right {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  height:400px;
+  overflow: scroll;
+}
+
+.content {
+  background-color: red;
+  height: 700px;
+}
